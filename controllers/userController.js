@@ -25,6 +25,8 @@ exports.updateUser = (req, res) => {
   });
 };
 
+// initialized in office pc
+
 exports.deleteUser = (req, res) => {
   res.status(500).json({
     status: 'error',
